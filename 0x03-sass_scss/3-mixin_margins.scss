@@ -1,0 +1,12 @@
+@mixin space($space: 10px){
+    margin-left: $space;
+    margin-right: $space;
+
+}
+
+body{
+    @include space()
+}
+div{
+    @include space($space: 15px)
+}
